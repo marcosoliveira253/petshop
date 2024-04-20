@@ -19,7 +19,7 @@ Este projeto utiliza as seguintes dependências:
 ![Texto Alternativo](https://github.com/marcosoliveira253/petshop/blob/main/img/tela.png))
 
 ## Link da página
-<a href="https://site-petshop.netlify.app/#sobre" target="_blank">Visite a página</a>
+<a href="https://site-petshop.netlify.app/#" target="_blank">Visite a página</a>
 
 
 ## Contribuição
