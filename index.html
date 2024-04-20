@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Petshop</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+            src="https://kit.fontawesome.com/e900325a4e.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="#" class="nav-logo"
+                        ><img src="img/logo.jpg" alt=""
+                    /></a>
+                </div>
+
+                <div class="menu">
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#sobre">Sobre</a>
+                        <a href="#servicos">Serviços</a>
+                        <a href="#contato">Contato</a>
+                    </nav>
+                </div>
+
+                <button id="btn-menu" onclick="animar()">
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                    <span class="linha"></span>
+                </button>
+
+                <div class="menu-mobile" id="menu-mobile">
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#sobre">Sobre</a>
+                        <a href="#servicos">Serviços</a>
+                        <a href="#contato">Contato</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section class="banner">
+            <div class="container" id="banner">
+                <h1>Bem-vindo ao nosso Petshop</h1>
+                <img src="img/banner1.png" alt="" />
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <div class="container" id="sobre-container">
+                <h1>Sobre Nós</h1>
+                <div class="w50 sobre-descricao">
+                    <p>
+                        Somos uma empresa de petshop fundada em 2021, com o objetivo
+                        de fornecer produtos e serviços de qualidade para animais de
+                        estimação. <br>
+                        Nossos serviços incluem banho e tosa, consultas
+                        veterinárias, venda de produtos de alimentação e acessórios
+                        para animais, entre outros. <br>
+                        Estamos sempre em busca de inovação e melhoria contínua,
+                        para proporcionar a melhor experiência possível para nossos
+                        clientes e seus pets.
+                    </p>
+                    
+                </div>
+    
+                <div class="w50 sobre-img">
+                    <img src="img/creche-intro.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="servicos" id="servicos">
+            <div class="container">
+                <h1>Nossos Serviços</h1>
+
+                <div class="card">
+                    <div class="w50 card-img">
+                        <img
+                            src="./img/intro-banho.jpg" alt="Serviço 1" class="card-img-top"/>
+                    </div>
+
+                    <div class="w50 servico-descricao">
+                        <h3>Banho e tosa</h3>
+                        <p>
+                            Durante os banhos, nossa equipe sempre se utiliza de
+                            toalhas descartáveis para garantir a saúde e bem-estar
+                            do seu animal. Um cuidado que faz toda a diferença!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="w50 card-img">
+                        <img
+                            src="./img/creche-intro.jpg" alt="Serviço 2" class="card-img-top" />
+
+                    </div>
+
+                    <div class="w50 servico-descricao">
+                        <h3>Creche</h3>
+                        <p>
+                            Algumas das atividades diárias realizadas na nossa
+                            creche: Brincadeiras com os Amigos Atividades
+                            Recreativas Cantinho do sono com ar-condicionado e
+                            musicoterapia “Mergulho” na piscininha para os dias
+                            quentes Muito amor e diversão!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="w50 card-img">
+                        <img
+                            src="./img/hotel pet.png" alt="Serviço 3" class="card-img-top" />
+                    </div>
+
+                    <div class="w50 servico-descricao">
+                        <h3>Pet Hotel</h3>
+                        <p>
+                            Em nosso espaço, os cães ficam a maioria do tempo
+                            livres, soltos para interagir com outros cachorros,
+                            separados por tamanhos (portes) e sociáveis cada qual em
+                            pista diferentes, seguimos uma programação de atividades
+                            para atender todos os tipos de cachorros e diversas
+                            raças, sempre na presença dos monitores o tempo todo são
+                            supervisionados por um membro de nossa equipe, tornando
+                            assim o ambiente mais seguro e confiável!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <button href="" id="btn-back-to-top" class="btn btn-primary back-to-top" role="button" aria-label="Voltar ao topo" data-bs-toggle="tooltip" data-bs-placement="left">
+                <i class="bi bi-arrow-up-circle-fill">Voltar</i>
+            </button>
+        </div>
+
+        <footer id="contato">
+            <div class="container">
+                <div class="logo-footer">
+                    <a href="#" class="nav-logo"
+                        ><img src="img/logo.jpg" alt=""
+                    /></a>
+                </div>
+                <div class="contact-info">
+                    <p>Rua Exemplo, 123</p>
+                    <p>contato@minhapetshop.com</p>
+                    <p>(11) 1234-5678</p>
+                </div>
+                <div class="social-media" style="text-align: center">
+                    <a href="#"  rel="noopener noreferrer"><img src="img/icons8-facebook-240.png" alt=""></a>
+                    
+                    <a href="https://wa.me/5581995187088" target="_blank" rel="noopener noreferrer"><img src="img/icons8-whatsapp-240.png" alt=""></a>
+                    
+                    <a href="#"  rel="noopener noreferrer"><img src="img/icons8-instagram-240.png" alt=""></a>
+                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/javascript.js"></script>
+        <script src="js/scrollreavel.js"></script>
+    </body>
+</html>
