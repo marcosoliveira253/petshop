@@ -16,10 +16,10 @@ Este projeto utiliza as seguintes dependências:
 - scrollReveal
 
 ## Imagem da landing page danki tema
-![Texto Alternativo]())
+![Texto Alternativo](https://github.com/marcosoliveira253/petshop/blob/main/img/tela.png))
 
 ## Link da página
-<a href="" target="_blank">Visite a página</a>
+<a href="https://site-petshop.netlify.app/#sobre" target="_blank">Visite a página</a>
 
 
 ## Contribuição
